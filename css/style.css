@@ -3,6 +3,28 @@
     border: 1px solid green;
 }
 
+/* GENERAL */
 body{
     font-family: "Dosis", sans-serif;
+}
+
+/* boxes utility */
+#boxes{
+    width: 1000px;
+}
+.odd{
+    color: cadetblue;
+}
+.even{
+    color: darkcyan;
+}
+.box{
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    color: white;
 }
