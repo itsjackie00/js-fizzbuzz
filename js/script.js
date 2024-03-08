@@ -10,7 +10,7 @@ Come faccio a sapere se un numero è divisibile per un altro?
 Abbiamo visto qualcosa di particolare che possiamo usare?
 */
 
-// RAGIONAMENTO
+// RAGIONAMENTO JS
 /*
 Per numeri divisibili sia per 3 e 5 (i % 15 === 0);
 console.log('FizzBuzz');
@@ -18,6 +18,16 @@ Per numeri divisibili per 3 (i % 3 === 0);
 console.log('Fizz');
 Per numeri divisibili per 5 ( i % 5 === 0);
 console.log('Buzz');
+*/
+
+//RAGIONAMENTO HTML
+/* 
+Creare una griglia di quadratini di 100 quadrati che mi ci stanno 
+in tutta la pagina raggruppata witdh:1000px. 
+Quadratino colorato per i;
+Quadratino colorato per Frizz;
+Quadratino colorato per Buzz;
+Quadratino colorato per FrizzBuzz;
 */
 
 /*
