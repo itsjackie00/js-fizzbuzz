@@ -29,6 +29,12 @@ Quadratino colorato per Frizz;
 Quadratino colorato per Buzz;
 Quadratino colorato per FrizzBuzz;
 */
+// TEMPLATE FOR JS
+/*
+<div id="boxes" class="d-flex justify-content-center align-content-center">
+    <div class="box"></div>
+</div> 
+*/
 
 /*
 CODICE DA ESEGUIRE PRIMA
