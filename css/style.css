@@ -6,25 +6,41 @@
 /* GENERAL */
 body{
     font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    background-color: #546775;
 }
 
 /* boxes utility */
 #boxes{
     width: 1000px;
 }
-.odd{
-    color: cadetblue;
+.bg-normal{
+    background-color: #8ec7f5;
 }
-.even{
-    color: darkcyan;
+.bg-fizz{
+    background-color: #f1f58e;
+}
+.bg-buzz{
+    background-color: #ffd167 ;
+}
+.bg-fizzbuzz{
+    background-color: #f5938f;
 }
 .box{
     width: 90px;
     height: 90px;
     margin: 5px;
+    font-size: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: cornflowerblue;
-    color: white;
+    color: grey;
+    transition: 2s;
+}
+.box:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    color: black;
+    
+    
 }
