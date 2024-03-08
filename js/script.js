@@ -9,3 +9,27 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 Come faccio a sapere se un numero è divisibile per un altro?
 Abbiamo visto qualcosa di particolare che possiamo usare?
 */
+
+// RAGIONAMENTO
+/*
+Per numeri divisibili sia per 3 e 5 (i % 15 === 0);
+console.log('FizzBuzz');
+Per numeri divisibili per 3 (i % 3 === 0);
+console.log('Fizz');
+Per numeri divisibili per 5 ( i % 5 === 0);
+console.log('Buzz');
+*/
+
+/*
+CODICE DA ESEGUIRE PRIMA
+*/
+
+for(i = 1; i <= 100; i++){
+    // console.log(i);
+
+}
+
+
+/*
+CODICE DA ESEGUIRE DOPO
+*/
