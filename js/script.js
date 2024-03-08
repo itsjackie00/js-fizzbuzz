@@ -40,10 +40,23 @@ Quadratino colorato per FrizzBuzz;
 CODICE DA ESEGUIRE PRIMA
 */
 
+//WRAPPER
+const boxWrapper = document.createElement('div');
+console.log(boxWrapper);
+
+boxWrapper.className = 'd-flex justify-content-center align-content-center flex-wrap';
+boxWrapper.setAttribute('id','boxes');
+console.log(boxWrapper);
+
+//VARIABILI
+let numbBox = 99;  
+let tmpHtml = '';
+
 // FizzBuzz Solution in log
 
-for (i = 1; i <= 100; i++) {
-    if (i % 15 === 0) {
+for (i = 0; i <= numbBox; i++) {
+    tmpHtml += `<div class="box">${i + 1}</div>`;
+   /*  if (i % 15 === 0) {
         console.log('Fizzbuzz');
     } else if (i % 3 === 0) {
         console.log('Fizz');
@@ -51,9 +64,13 @@ for (i = 1; i <= 100; i++) {
         console.log('Buzz');
     } else {
         console.log(i);
-    }
+    } */
 }
+boxWrapper.innerHTML = tmpHtml;
+console.dir(boxWrapper);
 
+const container = document.querySelector('.container');
+container.append(boxWrapper);
 
 /*
 CODICE DA ESEGUIRE DOPO
