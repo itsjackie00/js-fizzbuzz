@@ -44,27 +44,29 @@ CODICE DA ESEGUIRE PRIMA
 const boxWrapper = document.createElement('div');
 console.log(boxWrapper);
 
-boxWrapper.className = 'd-flex justify-content-center align-content-center flex-wrap';
-boxWrapper.setAttribute('id','boxes');
+boxWrapper.className = 'd-flex justify-content-center align-content-center m-auto flex-wrap';
+boxWrapper.setAttribute('id', 'boxes');
 console.log(boxWrapper);
 
 //VARIABILI
-let numbBox = 99;  
+let numbBox = 100;
 let tmpHtml = '';
 
 // FizzBuzz Solution in log
 
-for (i = 0; i <= numbBox; i++) {
-    tmpHtml += `<div class="box">${i + 1}</div>`;
-   /*  if (i % 15 === 0) {
-        console.log('Fizzbuzz');
-    } else if (i % 3 === 0) {
-        console.log('Fizz');
-    } else if (i % 5 === 0) {
-        console.log('Buzz');
+for (i = 1; i <= numbBox; i++) {
+    
+
+    if (i % 15 === 0) {
+        tmpHtml += `<div class="box bg-fizzbuzz">FizzBuzz</div>`;
+    } else if(i % 3 === 0){
+        tmpHtml += `<div class="box bg-fizz">Fizz</div>`;
+    }else if (i % 5 === 0) {
+        tmpHtml += `<div class="box bg-buzz">Buzz</div>`;
     } else {
-        console.log(i);
-    } */
+        tmpHtml += `<div class="box bg-normal">${i}</div>`;
+    }
+    
 }
 boxWrapper.innerHTML = tmpHtml;
 console.dir(boxWrapper);
